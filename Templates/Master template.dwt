@@ -7,6 +7,11 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
+<!-- TemplateParam name="The Doctors" type="boolean" value="true" -->
+<!-- TemplateParam name="The companions" type="boolean" value="false" -->
+<!-- TemplateParam name="Companions" type="boolean" value="false" -->
+<!-- TemplateParam name="Villains" type="boolean" value="false" -->
+<!-- TemplateParam name="The Companions" type="boolean" value="false" -->
 </head>
 
 <body>
@@ -23,8 +28,56 @@
 </table>
 <table width="1000">
   <tr>
-    <td>[Secondary navigation]</td>
-    <td><!-- TemplateBeginEditable name="MasterContent" -->[Content]<!-- TemplateEndEditable --></td>
+    <td height="318"><!-- TemplateBeginIf cond="_document['The Doctors']" -->
+      <ul>
+        <li><a href="../the-doctors/index.html">The Doctors</a></li>
+        <li><a href="../the-doctors/firstdoctor.html">First Doctor</a></li>
+        <li><a href="../the-doctors/seconddoctor.html">Second Doctor</a></li>
+        <li><a href="../the-doctors/thirddoctor.html">Third Doctor</a></li>
+        <li><a href="../the-doctors/fourthdoctor.html">Fourth Doctor</a></li>
+        <li><a href="../the-doctors/fifthdoctor.html">Fifth Doctor</a></li>
+        <li><a href="../the-doctors/sixthdoctor.html">Sixth Doctor</a></li>
+        <li><a href="../the-doctors/seventhdoctor.html">Seventh Doctor</a></li>
+        <li><a href="../the-doctors/eighthdoctor.html">Eighth Doctor</a></li>
+        <li><a href="../the-doctors/ninthdoctor.html">Ninth Doctors</a></li>
+        <li><a href="../the-doctors/tenthdoctor.html">Tenth Doctor</a></li>
+        <li><a href="../the-doctors/eleventhdoctor.html">Eleventh Doctor</a></li>
+        <li><a href="../the-doctors/twelfthdoctor.html">Twelfth Doctor</a></li>
+        <li><a href="../the-doctors/wardoctor.html">War Doctor</a></li></ul><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['The Companions']" -->
+        <ul>
+          <li><a href="../the-companions/index.html">The Companions</a></li>
+          <li><a href="../the-companions/JoGrant.html">Jo Grant</a></li>
+          <li><a href="../the-companions/Vicki.html">Vicki</a></li>
+          <li><a href="../the-companions/Steven Taylor.html">Steven Taylor</a></li>
+          <li><a href="../the-companions/Polly.html">Polly</a></li>
+          <li><a href="../the-companions/Ben Jackson.html">Ben Jackson</a></li>
+          <li><a href="../the-companions/Leela.html">Leela</a></li>
+          <li><a href="../the-companions/Romana.html">Romana</a></li>
+          <li><a href="../the-companions/RoseTyler.html">Rose Tyler</a></li>
+          <li><a href="../the-companions/MarthaJones.html">Martha Jones</a></li>
+          <li><a href="../the-companions/AmyPond.html">Amy Pond</a>
+        </li>
+        </ul>
+        <!-- TemplateEndIf -->
+    <!-- TemplateBeginIf cond="_document['Villains']" -->
+    <ul>
+      <li><a href="../the-villains/index.html">The Villains</a></li>
+      <li><a href="../the-villains/zygons.html">Zygons</a></li>
+      <li><a href="../the-villains/warmachines.html">War Machines</a></li>
+      <li><a href="../the-villains/themaster.html">The Master</a></li>
+      <li><a href="../the-villains/theblackguardian.html">The Black Guardian</a></li>
+      <li><a href="../the-villains/sil.html">Sil</a></li>
+      <li><a href="../the-villains/ood.html">Ood</a></li>
+      <li><a href="../the-villains/meddlingmonk.html">Meddling Monk</a></li>
+      <li><a href="../the-villains/kandyman.html">Kandy Man</a></li>
+      <li><a href="../the-villains/icewarriors.html">Ice Warriors</a></li>
+      <li><a href="../the-villains/cybermen.html">Cybermen</a></li>
+    </ul>
+    <!-- TemplateEndIf --></td>
+    
+<td><!-- TemplateBeginEditable name="MasterContent" -->
+  <p>Homepage</p>
+<!-- TemplateEndEditable --></td>
   </tr>
 </table>
 <p>&nbsp;</p>
